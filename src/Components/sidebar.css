@@ -1,0 +1,22 @@
+.side-conatiner{
+   width: 250px;
+   background-color: #ed6789;
+   height: 128vh;
+   margin-top: 1px;
+   position: sticky;
+   color: gray;
+   /* position: fixed; */
+}
+.list-items{
+   padding: 10px;
+   list-style: none;
+   
+}
+.ftlayer{
+   margin-right: 5px;
+   text-align: center;
+}
+/* span{
+   text-align: center;
+} */
+

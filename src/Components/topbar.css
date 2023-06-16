@@ -1,0 +1,149 @@
+.top-container{
+   background-color: #ed6789;
+      box-shadow: 4px 1px 3px 0px #ed6789;
+      display: flex;
+      height: 70px;
+      margin-top: -49rem;
+      margin-left: 30px
+      /* position: fixed; */
+   
+}
+.logo{
+   
+    width: 250px;
+    padding: 6px;
+    margin-right: 3px;
+
+}
+.title{
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-family: 'Roboto-Bold';
+  /* padding: 10px 385px 10px 40px; */
+  margin-right: 4rem;
+  margin-top: 10px;
+
+}
+.usaflag{
+    width: 27px;
+    margin-right: 30px;
+}
+.show-text {
+    display: none;
+    position: absolute;
+    top: 100%;
+    margin-left: 70rem;
+    left: 0;
+    background-color: #f9f9f9;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  .hover-container {
+    position: relative;
+    margin-top: 20px
+    
+  }
+  .hover-container:hover .show-text {
+    display: block;
+    margin-top: -20px;
+  }
+  .dropdown{
+    width: 53px;
+    margin-top: 20px;
+    border: none;
+    background: none;
+  }
+  .hover-container2{
+    position: relative;
+  }
+  
+  .hover-container2:hover .show-text2 {
+    display: block;
+    
+  }
+  .hover-container3{
+    position: relative;
+    margin-left: -30px;
+    margin-top: -6px;
+
+  }
+  .hover-container3:hover .show-text2{
+    display: block;
+  }
+ .btn{
+    width: 71px;
+    border: none;
+    margin-top: 11px;
+    background: #ed6789
+ }
+ .custom-modal-content{
+    width: 200px;
+ }
+ .checkbox{
+    width: 100%;
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 7px;
+ }
+ .fa-calendar{
+    position: relative;
+    margin-top: -6px;
+ }
+ .fa-calendar:hover .show-text2{
+    display: block;
+  }
+  .show-text2 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ed6789;
+    padding: 5px;
+    color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px ;
+   
+  }
+ 
+  .hover-container4:hover .show-text4{
+    display: block;
+  }
+ .task{
+  width: 300px;
+    /* border: 1px solid; */
+    border-radius: 57px;
+    border: 1px solid;
+    background: #ed6789;
+    color: #fff;
+    margin-top: 12px;
+    margin-bottom: -45px;
+}
+
+.watsupicon{
+  margin-top: 17px;
+  position: relative;
+  cursor: pointer;
+ 
+ }
+
+ .watsupicon:hover .show-text2{
+  display: block;
+ }
+ 
+ .avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  position: relative;
+  margin-left: 20px;
+}
+.head{
+  margin-top: -87px;
+    margin-bottom: 14px;
+    margin-left: 100px;
+}
